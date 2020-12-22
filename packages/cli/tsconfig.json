@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": false,
+    "outDir": "dist/",
+    "allowJs": true
+  },
+  "include": ["src/**/*", "vue-app/constants.ts"]
+}

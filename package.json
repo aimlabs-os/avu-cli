@@ -1,0 +1,15 @@
+{
+  "name": "avu-cli-workspace",
+  "version": "4.0.0-alpha.1",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "avu": "node ./packages/cli/dist/cli"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

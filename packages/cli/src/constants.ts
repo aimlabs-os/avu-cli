@@ -1,0 +1,1 @@
+export const SPECIAL_EXTENSIONS_RE = /\.(xml|json)$/
